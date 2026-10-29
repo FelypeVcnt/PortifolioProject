@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    scroll-margin-top: 20px;
+}
+
+.card {
+    height: 100%;
+}
+
+#formContato {
+    max-width: 700px;
+    margin: auto;
+}
+
+body.dark {
+    background-color: #222;
+    color: white;
+}
+
+body.dark #sobre,
+body.dark #projetos {
+    background-color: #222;
+    color: white;
+}
+
+body.dark #habilidades,
+body.dark #contato {
+    background-color: #333 !important;
+    color: white;
+}
+
+body.dark .card {
+    background-color: #444;
+    color: white;
+}
+
+body.dark .form-control {
+    background-color: #444;
+    color: white;
+}
+
+body.dark .form-control::placeholder {
+    color: #ddd;
+}
